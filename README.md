@@ -1,4 +1,4 @@
-# 📈 Prophet Portfolio Forecaster
+# � GoPred - A Prediction Model
 
 A machine learning project that forecasts stock prices using Facebook's **Prophet** model and optimizes portfolio allocation using **Markowitz mean-variance optimization**.
 

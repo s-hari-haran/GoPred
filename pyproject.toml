@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "Prophet-Forecasting-For-Portfolio-Optimisation"
-version = "0.1.0"
-description = "Prophet-based stock price forecasting with Markowitz portfolio optimisation"
-authors = ["egor@egorhowell.com"]
+name = "GoPred"
+version = "1.0.0"
+description = "GoPred - A Prediction Model using Prophet and Markowitz Optimization"
+authors = ["hari"]
 readme = "README.md"
 packages = [{include = "src"}]
 

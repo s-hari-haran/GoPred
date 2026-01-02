@@ -16,8 +16,8 @@ DATA_FILE = Path(__file__).parent / "data" / "predictions.json"
 
 # Page config
 st.set_page_config(
-    page_title="Portfolio Forecaster",
-    page_icon="📈",
+    page_title="GoPred - A Prediction Model",
+    page_icon="🚀",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -319,7 +319,7 @@ def create_price_chart(ticker_data: pd.DataFrame) -> go.Figure:
 
 def main():
     # Title
-    st.markdown('<div class="main-title">📈 PORTFOLIO FORECASTER</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-title">🚀 GOPRED</div>', unsafe_allow_html=True)
     
     # Load data
     df = load_predictions()
@@ -422,7 +422,7 @@ def main():
     st.markdown("""
     <div style="text-align: center; margin-top: 3rem; padding: 1rem; border-top: 3px solid #1A1A1A;">
         <span style="font-family: 'JetBrains Mono', monospace; font-size: 0.9rem;">
-            Built with Prophet + Markowitz Optimization | 
+            GoPred - A Prediction Model | Prophet + Markowitz | 
             <span style="background: #FFE566; padding: 0.2rem 0.5rem; border: 2px solid #1A1A1A;">NEOBRUTALISM</span>
         </span>
     </div>
